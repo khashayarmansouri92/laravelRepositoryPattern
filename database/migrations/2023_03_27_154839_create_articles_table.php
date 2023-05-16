@@ -17,7 +17,6 @@ class CreateArticlesTable extends Migration
             $table->id();
             $table->string('title');
             $table->text('body');
-            $table->string('commentCount')->default(0);
             $table->timestamps();
         });
     }
