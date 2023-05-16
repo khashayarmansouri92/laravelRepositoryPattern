@@ -21,9 +21,9 @@ class ArticleStoreAction
         $article = $this->ArticleService()->store($request->toArray());
 
         return response()->json([
-            'code' => 200,
+            'success' => true,
             'message' => 'stored article successfully',
-            'data' => $article,
-        ]);
+            'data' => $article
+            ], 200);
     }
 }

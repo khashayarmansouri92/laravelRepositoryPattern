@@ -22,7 +22,7 @@ class BaseRepository
      * @param $attributes
      * @return Model
      */
-    public function store($attributes) : Model
+    public function store(array $attributes) : Model
     {
         return $this->model->create($attributes);
     }
