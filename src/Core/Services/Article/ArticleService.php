@@ -2,12 +2,12 @@
 
 namespace Core\Services\Article;
 
-use Core\Traits\Article\InterfaceActionArticle;
+use Core\Traits\Article\InteractsWithArticle;
 use Domain\Article\Models\Article;
 
 class ArticleService implements ArticleServiceInterface
 {
-    use InterfaceActionArticle;
+    use InteractsWithArticle;
 
     /**
      * @param $data

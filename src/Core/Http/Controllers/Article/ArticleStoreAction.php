@@ -3,13 +3,13 @@
 namespace Core\Http\Controllers\Article;
 
 use Core\Http\Requests\ArticleRequest;
-use Core\Traits\Article\InterfaceActionArticle;
+use Core\Traits\Article\InteractsWithArticle;
 use Illuminate\Http\JsonResponse;
 
 
 class ArticleStoreAction
 {
-    use InterfaceActionArticle;
+    use InteractsWithArticle;
 
     /**
      * @param ArticleRequest $request

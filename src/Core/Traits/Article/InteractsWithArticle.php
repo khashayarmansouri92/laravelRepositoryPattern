@@ -6,7 +6,7 @@ namespace Core\Traits\Article;
 use Core\Services\Article\ArticleServiceInterface;
 use Domain\Repositories\Article\ArticleRepositoryInterface;
 
-trait InterfaceActionArticle
+trait InteractsWithArticle
 {
     /**
      * @return mixed
